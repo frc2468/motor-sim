@@ -13,10 +13,10 @@
 		<Item Name="Analytical Model.vi" Type="VI" URL="../Analytical Model.vi"/>
 		<Item Name="Compute Flywheel Instantaneous Values.vi" Type="VI" URL="../Compute Flywheel Instantaneous Values.vi"/>
 		<Item Name="Compute Motor Instantaneous Values.vi" Type="VI" URL="../Compute Motor Instantaneous Values.vi"/>
-		<Item Name="Hz to RPM.vi" Type="VI" URL="../Hz to RPM.vi"/>
+		<Item Name="Draw tick on circle.vi" Type="VI" URL="../Draw tick on circle.vi"/>
+		<Item Name="Draw weighted arm.vi" Type="VI" URL="../Draw weighted arm.vi"/>
 		<Item Name="Motor Model.vi" Type="VI" URL="../Motor Model.vi"/>
 		<Item Name="Simulated positioned arm.vi" Type="VI" URL="../Simulated positioned arm.vi"/>
-		<Item Name="Unwrap angle (mod).vi" Type="VI" URL="../Unwrap angle (mod).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="CD Generic Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Utility/CD Generic Error Handler.vi"/>
@@ -29,7 +29,11 @@
 				<Item Name="cd_Plot Outputs Or States.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Utility/Plots.llb/Plots subVIs/cd_Plot Outputs Or States.vi"/>
 				<Item Name="cd_Set Graph Display Props.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Utility/Plots.llb/Plots subVIs/cd_Set Graph Display Props.vi"/>
 				<Item Name="cd_Set Plot Names.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Control Design/_Utility/Plots.llb/Plots subVIs/cd_Set Plot Names.vi"/>
+				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
+				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
+				<Item Name="Draw Line.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Line.vi"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
+				<Item Name="Move Pen.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Move Pen.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_CD_Continuous and Discrete.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Control Design/_Model Conversions/NI_CD_Continuous and Discrete.lvlib"/>
@@ -55,6 +59,7 @@
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 			</Item>
 			<Item Name="Battery Coefficients.ctl" Type="VI" URL="../Modeling/Battery Coefficients.ctl"/>
 			<Item Name="Battery.vi" Type="VI" URL="../Modeling/Battery.vi"/>
@@ -64,6 +69,7 @@
 			<Item Name="Convert radians per sec to rpm.vi" Type="VI" URL="../Convert radians per sec to rpm.vi"/>
 			<Item Name="Convert rpm to radians per sec.vi" Type="VI" URL="../Convert rpm to radians per sec.vi"/>
 			<Item Name="Flywheel Moment of Inertia.vi" Type="VI" URL="../Flywheel Moment of Inertia.vi"/>
+			<Item Name="Hz to RPM.vi" Type="VI" URL="../Hz to RPM.vi"/>
 			<Item Name="Include Motor Physical Calc.vi" Type="VI" URL="../Include Motor Physical Calc.vi"/>
 			<Item Name="Lookup Motor Coefficients.vi" Type="VI" URL="../Lookup Motor Coefficients.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
@@ -71,6 +77,7 @@
 			<Item Name="Motor Operating Values.ctl" Type="VI" URL="../Modeling/Motor Operating Values.ctl"/>
 			<Item Name="Motor Physical Values.ctl" Type="VI" URL="../Motor Physical Values.ctl"/>
 			<Item Name="Motor Type.ctl" Type="VI" URL="../Motor Type.ctl"/>
+			<Item Name="Unwrap angle (mod).vi" Type="VI" URL="../Unwrap angle (mod).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
