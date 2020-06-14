@@ -10,12 +10,21 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Modeled Components" Type="Folder">
+			<Item Name="Battery.vi" Type="VI" URL="../Modeling/Battery.vi"/>
+			<Item Name="Breaker.vi" Type="VI" URL="../Modeling/Breaker.vi"/>
+			<Item Name="Combine MofI.vi" Type="VI" URL="../Modeling/Combine MofI.vi"/>
+		</Item>
+		<Item Name="subVIs" Type="Folder">
+			<Item Name="Draw tick on circle.vi" Type="VI" URL="../Draw tick on circle.vi"/>
+			<Item Name="Draw weighted arm.vi" Type="VI" URL="../Draw weighted arm.vi"/>
+			<Item Name="RPM to rps.vi" Type="VI" URL="../RPM to rps.vi"/>
+		</Item>
 		<Item Name="Analytical Model.vi" Type="VI" URL="../Analytical Model.vi"/>
 		<Item Name="Compute Flywheel Instantaneous Values.vi" Type="VI" URL="../Compute Flywheel Instantaneous Values.vi"/>
 		<Item Name="Compute Motor Instantaneous Values.vi" Type="VI" URL="../Compute Motor Instantaneous Values.vi"/>
-		<Item Name="Draw tick on circle.vi" Type="VI" URL="../Draw tick on circle.vi"/>
-		<Item Name="Draw weighted arm.vi" Type="VI" URL="../Draw weighted arm.vi"/>
 		<Item Name="Motor Model.vi" Type="VI" URL="../Motor Model.vi"/>
+		<Item Name="PID FRC form.vi" Type="VI" URL="../PID FRC form.vi"/>
 		<Item Name="Simulated positioned arm.vi" Type="VI" URL="../Simulated positioned arm.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -59,11 +68,10 @@
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 			</Item>
 			<Item Name="Battery Coefficients.ctl" Type="VI" URL="../Modeling/Battery Coefficients.ctl"/>
-			<Item Name="Battery.vi" Type="VI" URL="../Modeling/Battery.vi"/>
-			<Item Name="Combine MofI.vi" Type="VI" URL="../Modeling/Combine MofI.vi"/>
 			<Item Name="Compute Motor Model Values.vi" Type="VI" URL="../Compute Motor Model Values.vi"/>
 			<Item Name="Compute Motor Values.vi" Type="VI" URL="../Compute Motor Values.vi"/>
 			<Item Name="Convert radians per sec to rpm.vi" Type="VI" URL="../Convert radians per sec to rpm.vi"/>
@@ -77,7 +85,6 @@
 			<Item Name="Motor Operating Values.ctl" Type="VI" URL="../Modeling/Motor Operating Values.ctl"/>
 			<Item Name="Motor Physical Values.ctl" Type="VI" URL="../Motor Physical Values.ctl"/>
 			<Item Name="Motor Type.ctl" Type="VI" URL="../Motor Type.ctl"/>
-			<Item Name="Unwrap angle (mod).vi" Type="VI" URL="../Unwrap angle (mod).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
